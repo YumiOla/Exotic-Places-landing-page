@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    height: 600px;
+    background-color: aliceblue;
+    position: relative;
+    top: 140px;
+    left: 10px;
+    flex-wrap: wrap;
+    flex-grow: auto;
+    
+}
+
+
+
+#box1{
+    position: relative;
+    align-self: flex-start;
+    left: 500px;
+    Top: 20px;
+}
+
+#text1{
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+}
+
+#text2 {
+    font-size: 35px;
+    position: relative;
+}
+#box1>p{
+    text-align: center;
+}
+#box2{
+    background-image: url(Moroco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-start;
+    margin: 40 auto 0 auto;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    right: 120px;
+    
+    
+}
+
+#box3{
+    background-image: url(united\ kingdom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: self-start;   
+    height: 200px;
+    width: 430px;
+    position: relative;
+    top: 100px;
+    right: 130px;
+    
+}
+
+#box4{
+    background-image: url(Singapore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: ;
+    align-self: flex-start;
+    height: 200px;
+    width: 220px;
+    position: relative;
+    top: 100px;
+    right: 139px;
+    
+    
+}
+
+#box5{
+    background-image: url(Hungary.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-end;
+    margin: 40 auto 0 auto;
+    height: 200px;
+    width: 430px;
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+    margin: 14px;
+    
+}
+
+#box6{
+    background-image: url(Italy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40 auto 0 auto;
+    align-self: flex-end;
+    height: 200px;
+    width: 430px ;
+    position: relative;
+    bottom: 60px;
+    right: 70px;
+    margin: 14px;
+}
+   
+#tour1{
+    background-color: rgb(226, 70, 43);
+    text-align: center;
+    width: 60px;
+    position: relative;
+    left: 110px;
+    border-radius: 8px;
+    text-decoration: aliceblue;
+    font-size: 15px;
+   
+}
+
+#tour1{
+    color: rgb(255, 255, 255);
+}
+
+#tour2{
+    background-color: rgb(226, 70, 43);
+    text-align: center;
+    width: 60px;
+    position: relative;
+    left: 340px;
+    bottom: 29px;
+    border-radius: 8px;
+    text-decoration: aliceblue;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#tour3{
+    background-color: rgb(226, 70, 43);
+    text-align: center;
+    width: 60px;
+    position: relative;
+    left: 150px;
+    bottom: 1px;
+    border-radius: 8px;
+    text-decoration: aliceblue;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+   
+#tour4{
+    background-color: rgb(226, 70, 43);
+    text-align: center;
+    width: 60px;
+    position: relative;
+    left: 344px;
+    bottom: 17px;
+    border-radius: 8px;
+    text-decoration: aliceblue;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+#tour5{
+    background-color: rgb(226, 70, 43);
+    text-align: center;
+    width: 60px;
+    position: relative;
+    left: 363px;
+    bottom: 17px;
+    border-radius: 8px;
+    text-decoration: aliceblue;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#place1 {
+     color: aliceblue;
+     position: relative;
+     top: 160px;
+     left: 33px;
+     font-size: 20px;
+     background-color: rgba(0, 0, 0, 0.758);
+     width: 73px;
+}
+
+#place2 {
+    color: aliceblue;
+    position: relative;
+    top: 160px;
+    left: 33px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.758);
+    width: 140px;
+}
+
+#place3 {
+    color: aliceblue;
+    position: relative;
+    top: 160px;
+    left: 33px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.758);
+     width: 84px;
+}
+
+#place4 {
+    color: aliceblue;
+    position: relative;
+    top: 140px;
+    left: 33px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.758);
+    width: 72px;
+}
+
+#place5 {
+    color: aliceblue;
+    position: relative;
+    top: 140px;
+    left: 33px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.758);
+    width: 40px;
+}
+
+#country1{
+    color: rgb(251, 247, 0);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    position: relative;
+    top: 110px;
+    left: 40px;
+    font-size: 25px;
+}
+
+#country2{
+    color: rgb(251, 247, 0);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    position: relative;
+    top: 145px;
+    left: 30px;
+    font-size: 25px;
+}
+
+#country3{
+    color: rgb(251, 247, 0);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    position: relative;
+    top: 145px;
+    left: 30px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
